@@ -6,7 +6,7 @@ Toolbox ArcGIS Pro (`.atbx`) permettant d'exporter en masse les pièces jointes 
  
 La toolbox `downldPJ` contient deux outils :
  
-### 1. `ExportAttachments2` (recommandé)
+### `ExportAttachments2` (recommandé)
  
 Outil complet avec script Python embarqué, fonctionnel et autonome.
  
@@ -29,17 +29,6 @@ Outil complet avec script Python embarqué, fonctionnel et autonome.
 4. Écrit les données binaires dans un fichier à cet emplacement.
 5. Journalise chaque fichier sauvegardé dans les messages de l'outil (`arcpy.AddMessage`), et journalise les erreurs éventuelles (`arcpy.AddError`).
 **Prérequis :** ArcGIS Pro 3.x (testé avec `app_ver: 13.0`), module `arcpy`.
- 
-### 2. `ExportAttachments` (legacy — script manquant)
- 
-Outil plus ancien dont le script pointe vers un chemin local externe (`C:\prog\ExportAttachments.py`), non inclus dans l'archive `.atbx`. Le script n'est donc pas exploitable tel quel ; il est conservé ici à titre de référence historique. Utiliser `ExportAttachments2` à la place.
- 
-**Paramètres déclarés :**
- 
-| Paramètre | Nom interne | Type |
-|---|---|---|
-| Table des pièces jointes | `Attachment_table` | Table |
-| Dossier de sortie | `Output` | Dossier |
  
 ## Utilisation
  
