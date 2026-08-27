@@ -1,4 +1,4 @@
-# Export-des-pi-ces-jointes-ArcGIS
+# Export-des-pièces-jointes-ArcGIS
 
 Toolbox ArcGIS Pro (`.atbx`) permettant d'exporter en masse les pièces jointes (photos, documents, etc.) stockées dans une table d'attachements de géodatabase vers des fichiers sur disque.
  
